@@ -1,8 +1,29 @@
-\documentclass{beamer}
+% Full LaTeX presentation template using beamer package, intended to be used in formal and scientific presentations
+% Made in 2018 by Luis Plata: https://github.com/LuisPlata94/LaTeX-Presentation
+
+% Based on different guides:
+% ShareLaTeX's beamer guide: https://es.sharelatex.com/learn/Beamer
+
+\documentclass[12pt]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage{blindtext}
- 
- 
+\usepackage{amsthm}
+
+%\usefonttheme{structuresmallcapsserif} % Changes font
+%\usepackage{bookman} % Changes font
+\usetheme{Madrid} % Theme 
+\usecolortheme{default} % Colors
+% More themes at: http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+
+% PREAMBLE SECTION
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
 %Information to be included in the title page:
 \title[Beamer Template] %optional
 {Complete Template for a presentation in LaTeX}
@@ -28,16 +49,93 @@
 \date[2018] % (optional)
 {Presentation, January 2018}
  
-\logo{\includegraphics[height=1.5cm]{imgs/logo_itesm.png}}
+\logo{\includegraphics[height=1cm]{imgs/logo_itesm.png}}
  
 \begin{document}
- 
+
 \frame{\titlepage}
- 
+
+% Table of Contents
 \begin{frame}
-\frametitle{Sample frame title}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Basic features}
+% Basic example of a frame
+\begin{frame}
+\frametitle{Frame example}
 \blindtext[1]
 \end{frame}
+
+
+% Using multiple slides to imitate transitions effects
+\begin{frame}
+\frametitle{Transitions effects}
+This is a text in second frame. 
+For the sake of showing an example.
  
+\begin{itemize}
+ \item<1-> Text visible on slide 1
+ \item<2-> Text visible on slide 2
+ \item<3-> Text visible on slide 3
+\end{itemize}
+\end{frame}
+
+
+% Alternate way of adding effects
+\begin{frame}
+\frametitle{Alternate transition}
+ In this slide \pause
+ the text will be partially visible \pause
+ And finally everything will be there
+\end{frame}
+
+
+% Highlighting text
+% Beware because this changes with the theme used
+\begin{frame}
+\frametitle{Highlighting}
+ 
+In this slide, some important text will be
+\alert{highlighted} beause it's important.
+Please, don't abuse it.
+ 
+\begin{block}{Remark}
+Sample text
+\end{block}
+ 
+\begin{alertblock}{Important theorem}
+Sample text in red box
+\end{alertblock}
+ 
+\begin{example}
+Sample text in green box. "Examples" is fixed as block title.
+\end{example}
+\end{frame}
+
+
+% Two column slide
+\begin{frame}
+\frametitle{Two-column slide}
+ 
+\begin{columns}
+ 
+\column{0.5\textwidth}
+This is a text in first column.
+$$E=mc^2$$
+\begin{itemize}
+\item First item
+\item Second item
+\end{itemize}
+ 
+\column{0.5\textwidth}
+This text will be in the second column
+and on a second tought this is a nice looking
+layout in some cases.
+\end{columns}
+\end{frame}
+
+
 \end{document}
 
