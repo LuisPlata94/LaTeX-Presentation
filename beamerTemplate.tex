@@ -1,12 +1,34 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
+\usepackage{blindtext}
  
  
 %Information to be included in the title page:
-\title{Presentation Title}
-\author{Luis Plata}
-\institute{Tecnologico de Monterrey}
-\date{2017}
+\title[Beamer Template] %optional
+{Complete Template for a presentation in LaTeX}
+ 
+\subtitle{Using Beamer class}
+ 
+\author[Plata]
+{Luis Fernando Plata González\inst{1}}
+% Example for multiple authors {A.~B.~Arthur\inst{1} \and J.~Doe\inst{2}}
+ 
+\institute[TEC] % (optional)
+{
+  \inst{1}%
+  Computer Science Department\\
+  Tecnológico de Monterrey
+% Next lines are if multiple authors
+%  \and
+%  \inst{2}
+%  Faculty of Chemistry\\
+%  Very Famous University
+}
+ 
+\date[2018] % (optional)
+{Presentation, January 2018}
+ 
+\logo{\includegraphics[height=1.5cm]{imgs/logo_itesm.png}}
  
 \begin{document}
  
@@ -14,7 +36,7 @@
  
 \begin{frame}
 \frametitle{Sample frame title}
-This is a text in first frame. This is a text in first frame. This is a text in first frame.
+\blindtext[1]
 \end{frame}
  
 \end{document}
