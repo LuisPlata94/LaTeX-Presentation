@@ -5,17 +5,25 @@
 % ShareLaTeX's beamer guide: https://es.sharelatex.com/learn/Beamer
 
 \documentclass[12pt]{beamer}
-\usepackage[utf8]{inputenc}
-\usepackage{blindtext}
-\usepackage{amsthm}
 
+% Changing the appearance
+\setbeamertemplate{navigation symbols}{} % Hides the navigation bar
+\setbeamertemplate{caption}[numbered] % Numerates the images
+\usetheme{Madrid} % Theme 
+\usecolortheme{default} % Colors http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
 %\usefonttheme{structuresmallcapsserif} % Changes font
 %\usepackage{bookman} % Changes font
-\usetheme{Madrid} % Theme 
-\usecolortheme{default} % Colors
-% More themes at: http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
 
-% PREAMBLE SECTION
+% Packages (General ones)
+\usepackage[utf8]{inputenc} % Accents
+\usepackage{blindtext} % Dummy text
+\usepackage{amsthm} % Mathematical setup
+
+% Making citations on slide:
+\usepackage[style=authortitle,backend=bibtex]{biblatex}
+\addbibresource{BigData.bib}
+
+% Table of Contents
 \AtBeginSection[]
 {
   \begin{frame}
@@ -49,7 +57,8 @@
 \date[2018] % (optional)
 {Presentation, January 2018}
  
-\logo{\includegraphics[height=1cm]{imgs/logo_itesm.png}}
+%\logo{\includegraphics[height=1cm]{imgs/logo_itesm.png}} % Logo on all slides
+\titlegraphic{\includegraphics[height=1.5cm]{imgs/logo_itesm.png}} % Logo on 1st slide, I use this since there are problems with the footnotes
  
 \begin{document}
 
@@ -62,18 +71,17 @@
 \end{frame}
 
 \section{Basic features}
-% Basic example of a frame
+\subsection{Frame with dummy text}
 \begin{frame}
 \frametitle{Frame example}
 \blindtext[1]
 \end{frame}
 
 
-% Using multiple slides to imitate transitions effects
+\subsection{Transitions}
 \begin{frame}
-\frametitle{Transitions effects}
-This is a text in second frame. 
-For the sake of showing an example.
+\frametitle{Transitions with itemize}
+By using itemize you add a new item per slide
  
 \begin{itemize}
  \item<1-> Text visible on slide 1
@@ -82,18 +90,26 @@ For the sake of showing an example.
 \end{itemize}
 \end{frame}
 
-
-% Alternate way of adding effects
+\subsection{Figures}
 \begin{frame}
-\frametitle{Alternate transition}
+\frametitle{Example of a figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{imgs/r_result.eps}
+	\caption{LaTeX converts .eps files to .pdf, and the resolution is conserved}
+	\label{fig:1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Transition using pause}
  In this slide \pause
  the text will be partially visible \pause
  And finally everything will be there
 \end{frame}
 
 
-% Highlighting text
-% Beware because this changes with the theme used
+\subsection{Highlighting text}
 \begin{frame}
 \frametitle{Highlighting}
  
@@ -102,11 +118,11 @@ In this slide, some important text will be
 Please, don't abuse it.
  
 \begin{block}{Remark}
-Sample text
+Those colors change with the theme
 \end{block}
  
 \begin{alertblock}{Important theorem}
-Sample text in red box
+There are more types of blocks
 \end{alertblock}
  
 \begin{example}
@@ -115,7 +131,7 @@ Sample text in green box. "Examples" is fixed as block title.
 \end{frame}
 
 
-% Two column slide
+\subsection{Two-column slide}
 \begin{frame}
 \frametitle{Two-column slide}
  

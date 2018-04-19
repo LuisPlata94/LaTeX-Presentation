@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.2)  7 FEB 2018 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.2)  19 APR 2018 15:22
 entering extended mode
 **./beamerTemplate.tex
 (beamerTemplate.tex
@@ -665,6 +665,11 @@ Package: amsthm 2015/03/04 v2.20.2
 \beamer@dimb=\dimen189
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemedefault.sty")))
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerthemeMadrid.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemewhale.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemeorchid.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemerounded.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemeinfolines.sty"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks43
@@ -1010,28 +1015,257 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count170
 \c@blind@pangrammax=\count171
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerthemeMadrid.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemewhale.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemeorchid.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemerounded.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemeinfolines.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+
+(C:\Users\luisf\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count172
+
+(C:\Users\luisf\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\luisf\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
+(C:\Users\luisf\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
+\@xs@message=\write5
+\integerpart=\count173
+\decimalpart=\count174
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count175
+\c@listtotal=\count176
+\c@listcount=\count177
+\c@liststart=\count178
+\c@liststop=\count179
+\c@citecount=\count180
+\c@citetotal=\count181
+\c@multicitecount=\count182
+\c@multicitetotal=\count183
+\c@instcount=\count184
+\c@maxnames=\count185
+\c@minnames=\count186
+\c@maxitems=\count187
+\c@minitems=\count188
+\c@citecounter=\count189
+\c@savedcitecounter=\count190
+\c@uniquelist=\count191
+\c@uniquename=\count192
+\c@refsection=\count193
+\c@refsegment=\count194
+\c@maxextratitle=\count195
+\c@maxextratitleyear=\count196
+\c@maxextradate=\count197
+\c@maxextraalpha=\count198
+\c@abbrvpenalty=\count199
+\c@highnamepenalty=\count266
+\c@lownamepenalty=\count267
+\c@maxparens=\count268
+\c@parenlevel=\count269
+\blx@tempcnta=\count270
+\blx@tempcntb=\count271
+\blx@tempcntc=\count272
+\blx@maxsection=\count273
+\blx@maxsegment@0=\count274
+\blx@notetype=\count275
+\blx@parenlevel@text=\count276
+\blx@parenlevel@foot=\count277
+\blx@sectionciteorder@0=\count278
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read2
+\blx@bcfout=\write6
+\c@mincomprange=\count279
+\c@maxcomprange=\count280
+\c@mincompwidth=\count281
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def"
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authortitle.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count282
+\c@savedafterword=\count283
+\c@annotator=\count284
+\c@savedannotator=\count285
+\c@author=\count286
+\c@savedauthor=\count287
+\c@bookauthor=\count288
+\c@savedbookauthor=\count289
+\c@commentator=\count290
+\c@savedcommentator=\count291
+\c@editor=\count292
+\c@savededitor=\count293
+\c@editora=\count294
+\c@savededitora=\count295
+\c@editorb=\count296
+\c@savededitorb=\count297
+\c@editorc=\count298
+\c@savededitorc=\count299
+\c@foreword=\count300
+\c@savedforeword=\count301
+\c@holder=\count302
+\c@savedholder=\count303
+\c@introduction=\count304
+\c@savedintroduction=\count305
+\c@namea=\count306
+\c@savednamea=\count307
+\c@nameb=\count308
+\c@savednameb=\count309
+\c@namec=\count310
+\c@savednamec=\count311
+\c@translator=\count312
+\c@savedtranslator=\count313
+\c@shortauthor=\count314
+\c@savedshortauthor=\count315
+\c@shorteditor=\count316
+\c@savedshorteditor=\count317
+\c@labelname=\count318
+\c@savedlabelname=\count319
+\c@institution=\count320
+\c@savedinstitution=\count321
+\c@lista=\count322
+\c@savedlista=\count323
+\c@listb=\count324
+\c@savedlistb=\count325
+\c@listc=\count326
+\c@savedlistc=\count327
+\c@listd=\count328
+\c@savedlistd=\count329
+\c@liste=\count330
+\c@savedliste=\count331
+\c@listf=\count332
+\c@savedlistf=\count333
+\c@location=\count334
+\c@savedlocation=\count335
+\c@organization=\count336
+\c@savedorganization=\count337
+\c@origlocation=\count338
+\c@savedoriglocation=\count339
+\c@origpublisher=\count340
+\c@savedorigpublisher=\count341
+\c@publisher=\count342
+\c@savedpublisher=\count343
+\c@language=\count344
+\c@savedlanguage=\count345
+\c@origlanguage=\count346
+\c@savedoriglanguage=\count347
+\c@pageref=\count348
+\c@savedpageref=\count349
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+\locallabelnumberwidth=\skip71
+\locallabelalphawidth=\skip72
+\localshorthandwidth=\skip73
+\localshortjournalwidth=\skip74
+\localshortserieswidth=\skip75
+\localshorttitlewidth=\skip76
+\localshortauthorwidth=\skip77
+\localshorteditorwidth=\skip78
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count350
+\c@textcitetotal=\count351
+\c@textcitemaxnames=\count352
+\c@biburlnumpenalty=\count353
+\c@biburlucpenalty=\count354
+\c@biburllcpenalty=\count355
+\c@smartand=\count356
+)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\authortitle.bbx"
+File: authortitle.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count357
+\c@bbx:relatedtotal=\count358
+))
+Package biblatex Info: Trying to load citation style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\authortitle.cbx"
+File: authortitle.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+\@quotelevel=\count359
+\@quotereset=\count360
+
 (beamerTemplate.aux)
 \openout1 = `beamerTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1069,16 +1303,16 @@ LaTeX Font Info:    ... okay on input line 54.
 
 (C:\Users\luisf\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count172
+\scratchcounter=\count361
 \scratchdimen=\dimen190
 \scratchbox=\box53
-\nofMPsegments=\count173
-\nofMParguments=\count174
+\nofMPsegments=\count362
+\nofMParguments=\count363
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count175
+\MPscratchCnt=\count364
 \MPscratchDim=\dimen191
-\MPnumerator=\count176
-\makeMPintoPDFobject=\count177
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
 \everyMPtoPDFconversion=\toks46
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1095,7 +1329,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1103,68 +1337,68 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count178
+\c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (beamerTemplate.out) (beamerTemplate.out)
-\@outlinefile=\write5
-\openout5 = `beamerTemplate.out'.
+\@outlinefile=\write7
+\openout7 = `beamerTemplate.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 63.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 63.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 54.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 54.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 63.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 63.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 63.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 54.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 63.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 63.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-4.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 6
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-54.
+63.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 54.
+ut line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
 English.dict"
@@ -1189,168 +1423,131 @@ Dictionary: translator-numbers-dictionary, Language: English
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-theorem-dictionar
 y-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
-) (beamerTemplate.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout6 = `beamerTemplate-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'beamerTemplate.bbl' found.
+ (beamerTemplate.bbl)
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
+ (beamerTemplate.nav)
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 56.
+line 65.
 
 (C:\Users\luisf\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1mathkern
 cmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<imgs/logo_itesm.png, id=23, 1346.02875pt x 536.0025pt>
+<imgs/logo_itesm.png, id=43, 1346.02875pt x 536.0025pt>
 File: imgs/logo_itesm.png Graphic file (type png)
 <use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 56. on input l
-ine 56.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-56.
+Package pdftex.def Info: imgs/logo_itesm.png  used on input line 65. on input l
+ine 65.
+Package pdftex.def Info: Requested size: 107.17102pt x 42.67912pt on input line
+ 65.
  [1
 
 {C:/Users/luisf/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imgs/logo
-_itesm.png>] (beamerTemplate.toc)
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 62. on input l
-ine 62.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-62.
- [2
+_itesm.png>] (beamerTemplate.toc) [2
 
-] (beamerTemplate.toc)
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 64. on input l
-ine 64.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-64.
- [3
+] (beamerTemplate.toc) [3
 
 ]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 69. on input l
-ine 69.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-69.
-
 [4
 
-]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 83. on input l
-ine 83.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-83.
- [5
+] [5
+
+] [6
+
+] [7
 
 ]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 83. on input l
-ine 83.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-83.
- [6
-
-]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 83. on input l
-ine 83.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-83.
- [7
-
-]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 92. on input l
-ine 92.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-92.
+Package epstopdf Info: Source file: <imgs/r_result.eps>
+(epstopdf)                    date: 2018-04-17 08:57:16
+(epstopdf)                    size: 34559 bytes
+(epstopdf)             Output file: <imgs/r_result-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-04-19 15:08:29
+(epstopdf)                    size: 10068 bytes
+(epstopdf)             Command: <epstopdf --outfile=imgs/r_result-eps-converted
+-to.pdf imgs/r_result.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+<imgs/r_result-eps-converted-to.pdf, id=112, pagebox=cropbox, 412.54124pt x 316
+.18124pt>
+File: imgs/r_result-eps-converted-to.pdf Graphic file (type pdf)
+<use imgs/r_result-eps-converted-to.pdf>
+Package pdftex.def Info: imgs/r_result-eps-converted-to.pdf  used on input line
+ 102. on input line 102.
+Package pdftex.def Info: Requested size: 204.41943pt x 156.67181pt on input lin
+e 102.
  [8
 
-]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 92. on input l
-ine 92.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-92.
- [9
+ <./imgs/r_result-eps-converted-to.pdf>] [9
+
+] [10
+
+] [11
 
 ]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 92. on input l
-ine 92.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-92.
- [10
+[12
+
+] [13
 
 ]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 115. on input 
-line 115.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-115.
- [11
+\tf@nav=\write8
+\openout8 = `beamerTemplate.nav'.
 
-]
-File: imgs/logo_itesm.png Graphic file (type png)
-<use imgs/logo_itesm.png>
-Package pdftex.def Info: imgs/logo_itesm.png  used on input line 137. on input 
-line 137.
-Package pdftex.def Info: Requested size: 71.43365pt x 28.45274pt on input line 
-137.
- [12
+\tf@toc=\write9
+\openout9 = `beamerTemplate.toc'.
 
-]
-\tf@nav=\write6
-\openout6 = `beamerTemplate.nav'.
+\tf@snm=\write10
+\openout10 = `beamerTemplate.snm'.
 
-\tf@toc=\write7
-\openout7 = `beamerTemplate.toc'.
-
-\tf@snm=\write8
-\openout8 = `beamerTemplate.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (beamerTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `beamerTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: E3912E1F9E40CDA5F01B738155B727AE;50.
+(rerunfilecheck)             Checksum: 52AF9E6C6337A61A9A4474F75E9FB79C;374.
+Package logreq Info: Writing requests to 'beamerTemplate.run.xml'.
+\openout1 = `beamerTemplate.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 17606 strings out of 493312
- 335038 string characters out of 3138900
- 406261 words of memory out of 3000000
- 20712 multiletter control sequences out of 15000+200000
- 12038 words of font info for 44 fonts, out of 3000000 for 9000
+ 23796 strings out of 493312
+ 452229 string characters out of 3138900
+ 711364 words of memory out of 3000000
+ 26833 multiletter control sequences out of 15000+200000
+ 12343 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,63p,810b,626s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on beamerTemplate.pdf (12 pages, 683221 bytes).
+ 56i,15n,64p,783b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmssi12.pfb>
+Output written on beamerTemplate.pdf (13 pages, 658117 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
